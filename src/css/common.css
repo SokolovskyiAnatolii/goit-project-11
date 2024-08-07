@@ -2,12 +2,6 @@
     font-family: 'Inter', sans-serif;
     color: #fbfbfb;
     background-color: #0e1823;
-    /* font-weight: 400;
-    font-size: 16px;
-    line-height: 1.2; 
-    * здається це не потрібно, оскільки кожен текст має свої стилі і вони однаково будуть перевизначатись
-    */
-
   }
 
   .visually-hidden {

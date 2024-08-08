@@ -43,6 +43,33 @@
     color: #fbfbfb;
   }
 
+  button {
+    cursor: pointer;
+  }
+
+  .main-btn {
+    border-radius: 15px;
+    padding: 14px 32px;
+    min-width: 141px;
+    height: 46px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+    font-family: "Inter", sans-serif;
+    display: block;
+    border: none;
+    background-color: #1b414b;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .main-btn:hover, .main-btn:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+    cursor: pointer;
+  }
+
   @media screen and (min-width: 375px) {
     .container {
       max-width: 375px;
@@ -66,6 +93,13 @@
         font-size: 70px;
 
     }
+
+    .main-btn {
+      padding: 16px 40px;
+      min-width: 179px;
+      height: 52px;
+    }
+  
   }
 
   @media screen and (min-width: 1280px) {

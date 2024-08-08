@@ -1,4 +1,19 @@
-.header {
+/* .header {
+}
+
+.header-container {
+min-width: 335px;
+height: 42px;
+background-color: #fbfbfb;
+border: 1px solid #fbfbfb;
+border-radius: 8px;
+}
+
+.logo-header {
+font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    color: #1b414b;
 }
 
 .nav-list {
@@ -9,4 +24,4 @@
 
 .nav-link:hover,
 .nav-link:focus {
-}
+} */

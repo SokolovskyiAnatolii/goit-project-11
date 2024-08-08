@@ -318,7 +318,54 @@
 </section>
 
 
-    <section class="rent-a-yacht">rent-a-yacht</section>
+    <section class="rent-a-yacht" id="rent">
+  <div class="container">
+    <h2 class="rent-title">Rent a yacht now</h2>
+    <form action="" class="rent-form">
+      <label>
+        <input
+          type="text"
+          class="rent-inputs"
+          name="user-name"
+          placeholder="Full Name"
+          required
+        />
+      </label>
+      <label>
+        <input
+          type="text"
+          class="rent-inputs"
+          name="user-email"
+          placeholder="Email"
+          required
+          pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+        />
+      </label>
+      <label>
+        <input
+          type="text"
+          class="rent-inputs"
+          name="user-number"
+          placeholder="Phone number"
+          required
+          pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+        />
+      </label>
+      <textarea
+        name="user-text"
+        placeholder="Comment"
+        id=""
+        class="rent-comment"
+      ></textarea>
+    </form>
+    <button type="submit">Send</button>
+    <img
+      srcset="../img/mobile/rent-mob.png 1x, ../img/mobile/rent-mob@2x.png 2x"
+      src="../img/mobile/rent-mob.png"
+      alt="yacht"
+    />
+  </div>
+</section>
 
 
     <secіtion id="reviews" class="reviews">

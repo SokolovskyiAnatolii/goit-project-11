@@ -27,7 +27,16 @@
   margin-bottom: 38px;
 }
 
+.main-btn {
+  font-size: 14px;
+  background: #1b414b;
+}
+
 .hero-rewiew {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
   width: 141px;
   min-height: 46px;
   margin: 0 auto;

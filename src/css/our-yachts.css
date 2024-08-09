@@ -1,24 +1,144 @@
+.yacht-title {
+  width: 310px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.our-yachts-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.our-yachts-item {
+  background: #fff;
+  padding: 16px 16px 32px;
+  border-radius: 24px;
+}
+
+.our-yachts-image {
+  margin-bottom: 32px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid rgba(4, 3, 6, 0.1);
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.our-yachts-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+}
+
+.our-yachts-paragraph {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.property {
+  font-size: 14px;
+  line-height: 1.18;
+}
+
+.our-yachts-value {
+  font-size: 14px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+}
+
+.rent-btn {
+  min-width: 141px;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  padding: 14px 32px;
+  background: transparent;
+
+  margin: 0 auto;
+
+  font-size: 14px;
+  line-height: 1.29;
+}
+
 @media screen and (max-width: 767px) {
-    .our-yachts-item:nth-child(2),
-    .our-yachts-item:nth-child(3) {
-        display: none;
-    }
+  .our-yachts-item:nth-child(2),
+  .our-yachts-item:nth-child(3) {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1279px) {
-    .our-yachts-item:nth-child(3) {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 375px) {
+  .our-yachts-item:nth-child(3) {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .yacht-title {
+    width: 610px;
+    margin-bottom: 75px;
+  }
+
+  .our-yachts-list {
+    gap: 32px;
+    margin-bottom: 50px;
+  }
+
+  .our-yachts-title {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .our-yachts-paragraph {
+    font-size: 13px;
+    line-height: 1.18;
+  }
+
+  .rent-btn {
+    min-width: 179px;
+    padding: 16px 40px;
+
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .yacht-title {
+    width: 690px;
+  }
+
+  .our-yachts-list {
+    gap: 25px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
+  .our-yachts-list {
+    gap: 32px;
+  }
 }

@@ -1,0 +1,151 @@
+/* MOB STYLES */
+.container-about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+  border-radius: 24px;
+  border-color: #040306;
+  box-sizing: border-box;
+  max-width: 335px;
+}
+
+.section {
+}
+
+.about-us-title {
+  color: #1b414b;
+  padding: 40px 20px 38px 20px;
+  max-width: 295px;
+  line-height: 100%;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+.about-us-div-text {
+  gap: 20px;
+}
+.about-us-text {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  text-align: left;
+  /* margin-bottom: 20px; */
+  п
+}
+
+.about-us-under-text {
+  /* margin-top: 20px; */
+  padding: 20px;
+  color: #040306;
+  opacity: 0.4;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+}
+
+.about-us-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1180px;
+  max-height: 470px;
+  /* background-color: #0e1823; */
+  border-radius: 24px;
+}
+
+/* TAB STYLES */
+
+@media screen and (min-width: 768px) {
+  .container-about-us {
+    max-width: 704px;
+    gap: 32px;
+  }
+
+  .section {
+    padding: 50px 136px 50px 32px;
+    justify-content: space-between;
+  }
+
+  .about-us-title {
+    max-width: 536px;
+    font-size: 48px;
+  }
+
+  .about-us-div-text {
+  }
+
+  .about-us-text {
+    width: 389px;
+    font-size: 23px;
+  }
+
+  .about-us-under-text {
+    width: 385px;
+    font-size: 13px;
+  }
+
+  .about-us-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* LAPTOPE STYLES */
+
+@media screen and (min-width: 1280px) {
+  .container-about-us {
+    max-width: 1180px;
+  }
+
+  .about-us {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-us-title {
+    width: 537px;
+  }
+
+  .about-us {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+
+  .about-us-div-text {
+    margin-left: auto;
+    margin-right: 50px;
+    /* width: 354px; */
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .about-us-text {
+  }
+
+  .about-us-under-text {
+  }
+
+  .about-us-image {
+    border-radius: 24px;
+  }
+}
+
+/* DESKTOP STYLES */
+
+@media screen and (min-width: 1440px) {
+  .container-about-us {
+    max-width: 1340px;
+  }
+}

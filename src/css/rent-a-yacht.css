@@ -2,6 +2,7 @@
   line-height: 28px;
   letter-spacing: -0.56px;
   text-align: start;
+
   margin-bottom: 40px;
 }
 .rent-form {
@@ -74,4 +75,39 @@
 }
 .rent-img {
   border-radius: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .rent-form {
+    padding-left: 148px;
+    padding-right: 148px;
+  }
+  .section-title {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: -0.96px;
+
+    margin-bottom: 50px;
+  }
+  .rent-form {
+    margin-bottom: 100px;
+  }
+  .rent-input {
+    height: 42px;
+  }
+  .rent-comment {
+    height: 116px;
+    margin-bottom: 50px;
+  }
+  .rent-btn {
+    width: 194px;
+    height: 56px;
+  }
+  .rent-img {
+    width: 100%;
+    height: 534px;
+  }
+}
+@media screen and (min-width: 1280px) {
 }

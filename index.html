@@ -23,7 +23,7 @@
 
     
     <script type="module" crossorigin src="/goit-project-11/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-project-11/assets/index-a6b0ebf4.css">
+    <link rel="stylesheet" href="/goit-project-11/assets/index-9f2e2962.css">
   </head>
   <body>
     <header class="header">
@@ -324,12 +324,12 @@
 
     <section class="rent-a-yacht" id="rent">
   <div class="container">
-    <h2 class="rent-title">Rent a yacht now</h2>
-    <form action="" class="rent-form">
+    <h2 class="section-title">Rent a yacht now</h2>
+    <form class="rent-form">
       <label>
         <input
           type="text"
-          class="rent-inputs"
+          class="rent-input"
           name="user-name"
           placeholder="Full Name"
           required
@@ -337,36 +337,37 @@
       </label>
       <label>
         <input
-          type="text"
-          class="rent-inputs"
+          type="email"
+          class="rent-input"
           name="user-email"
           placeholder="Email"
-          required
           pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+          required
         />
       </label>
       <label>
         <input
-          type="text"
-          class="rent-inputs"
-          name="user-number"
+          type="tel"
+          class="rent-input"
+          name="user-tel"
           placeholder="Phone number"
-          required
           pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+          required
         />
       </label>
       <textarea
         name="user-text"
         placeholder="Comment"
-        id=""
         class="rent-comment"
+        required
       ></textarea>
+      <button type="submit" class="rent-btn">Send</button>
     </form>
-    <button type="submit">Send</button>
     <img
-      srcset="../img/mobile/rent-mob.png 1x, ../img/mobile/rent-mob@2x.png 2x"
-      src="../img/mobile/rent-mob.png"
+      srcset="/goit-project-11/assets/rent-mob-40d5dfaf.png 1x, /goit-project-11/assets/rent-mob@2x-8608f81d.png 2x"
+      src="/goit-project-11/assets/rent-mob-40d5dfaf.png"
       alt="yacht"
+      class="rent-img"
     />
   </div>
 </section>

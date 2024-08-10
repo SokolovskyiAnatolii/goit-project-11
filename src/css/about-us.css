@@ -5,14 +5,24 @@
   gap: 20px;
   width: 100%;
   background-color: #fbfbfb;
-  margin-top: -35px;
   border-radius: 24px;
   border-color: #040306;
   box-sizing: border-box;
   max-width: 335px;
 }
 
-.section {
+.about-us-section {
+  margin-top: -60px;
+}
+@media screen and (min-width: 768px) {
+  .about-us-section {
+    margin-top: -68px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .about-us-section {
+    margin-top: -35px;
+  }
 }
 
 .about-us-title {

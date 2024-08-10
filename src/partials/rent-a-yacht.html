@@ -40,12 +40,40 @@
       <button type="submit" class="rent-btn">Send</button>
     </form>
     <div class="img-container">
-      <img
-        srcset="/img/mobile/rent-mob.png 1x, /img/mobile/rent-mob@2x.png 2x"
-        src="/img/mobile/rent-mob.png"
-        alt="yacht"
-        class="rent-img"
-      />
+      <picture>
+        <source
+          srcset="/img/mobile/rent-mob.png 1x, /img/mobile/rent-mob@2x.png 2x"
+          media="(max-width: 374px)"
+        />
+        <source
+          srcset="/img/mobile/rent-mob.png 1x, /img/mobile/rent-mob@2x.png 2x"
+          media="(min-width: 375px) and (max-width: 767px)"
+        />
+        <source
+          srcset="/img/tablet/rent-tab.png 1x, /img/tablet/rent-tab@2x.png 2x"
+          media="(min-width: 768px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="
+            /img/desktop-middle/rent-desk-1280.png    1x,
+            /img/desktop-middle/rent-desk-1280@2x.png 2x
+          "
+          media="(min-width: 1280px) and (max-width: 1439px)"
+        />
+        <source
+          srcset="
+            /img/desktop-full/rent-desk-1440.png    1x,
+            /img/desktop-full/rent-desk-1440@2x.png 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <img
+          src="/img/mobile/rent-mob.png"
+          srcset="/img/mobile/rent-mob.png 1x, /img/mobile/rent-mob@2x.png 2x"
+          alt="yacht"
+          class="rent-img"
+        />
+      </picture>
     </div>
   </div>
 </section>

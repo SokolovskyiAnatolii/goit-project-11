@@ -23,7 +23,7 @@
 
     
     <script type="module" crossorigin src="/goit-project-11/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-project-11/assets/index-eb86a534.css">
+    <link rel="stylesheet" href="/goit-project-11/assets/index-d3ece4f7.css">
   </head>
   <body>
     <header class="header">
@@ -422,12 +422,34 @@
       <button type="submit" class="rent-btn">Send</button>
     </form>
     <div class="img-container">
-      <img
-        srcset="/goit-project-11/assets/rent-mob-40d5dfaf.png 1x, /goit-project-11/assets/rent-mob@2x-8608f81d.png 2x"
-        src="/goit-project-11/assets/rent-mob-40d5dfaf.png"
-        alt="yacht"
-        class="rent-img"
-      />
+      <picture>
+        <source
+          srcset="/goit-project-11/assets/rent-mob-40d5dfaf.png 1x, /goit-project-11/assets/rent-mob@2x-8608f81d.png 2x"
+          media="(max-width: 374px)"
+        />
+        <source
+          srcset="/goit-project-11/assets/rent-mob-40d5dfaf.png 1x, /goit-project-11/assets/rent-mob@2x-8608f81d.png 2x"
+          media="(min-width: 375px) and (max-width: 767px)"
+        />
+        <source
+          srcset="/goit-project-11/assets/rent-tab-c8f5a24d.png 1x, /goit-project-11/assets/rent-tab@2x-7e7febe9.png 2x"
+          media="(min-width: 768px) and (max-width: 1279px)"
+        />
+        <source
+          srcset="/goit-project-11/assets/rent-desk-1280-303a8c85.png 1x, /goit-project-11/assets/rent-desk-1280@2x-4ef6845e.png 2x"
+          media="(min-width: 1280px) and (max-width: 1439px)"
+        />
+        <source
+          srcset="/goit-project-11/assets/rent-desk-1440-28aeeaaa.png 1x, /goit-project-11/assets/rent-desk-1440@2x-e3082233.png 2x"
+          media="(min-width: 1440px)"
+        />
+        <img
+          src="/goit-project-11/assets/rent-mob-40d5dfaf.png"
+          srcset="/goit-project-11/assets/rent-mob-40d5dfaf.png 1x, /goit-project-11/assets/rent-mob@2x-8608f81d.png 2x"
+          alt="yacht"
+          class="rent-img"
+        />
+      </picture>
     </div>
   </div>
 </section>
@@ -511,13 +533,13 @@
       <div class="footer-navigation">
         <ul class="navigation-list">
           <li class="navigation-link">
-            <a href="about-us" class="footer-navigation-link">About</a>
+            <a href="#about-us" class="footer-navigation-link">About</a>
           </li>
           <li class="navigation-link">
-            <a href="our-yachts" class="footer-navigation-link">Yachts</a>
+            <a href="#our-yachts" class="footer-navigation-link">Yachts</a>
           </li>
           <li class="navigation-link">
-            <a href="reviews" class="footer-navigation-link">Reviews</a>
+            <a href="#reviews" class="footer-navigation-link">Reviews</a>
           </li>
         </ul>
       </div>

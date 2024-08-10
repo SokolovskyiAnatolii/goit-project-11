@@ -60,13 +60,12 @@
   transition: border-color 0.5s ease-in 0.3s;
 }
 .rent-btn {
-  width: 122px;
-  height: 46px;
+  font: 500 18px / 1.1;
+  letter-spacing: -0.02em;
+
   color: #fbfbfb;
-  border-radius: 15px;
-  background: #1b414b;
-  letter-spacing: -0.28px;
-  border: none;
+  background: none;
+  border: 1px solid rgba(251, 251, 251, 0.35);
   transition: background-color 0.5s ease-in 0.3s;
   transition: color 0.5s ease-in 0.3s;
 }

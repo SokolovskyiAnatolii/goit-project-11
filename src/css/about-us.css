@@ -1,4 +1,3 @@
-/* MOB STYLES */
 .container-about-us {
   display: flex;
   flex-direction: column;
@@ -51,7 +50,6 @@
 
 .about-us-under-text {
   margin-top: 20px;
-  /* padding: 20px; */
   color: #040306;
   opacity: 0.4;
   font-size: 12px;
@@ -62,17 +60,15 @@
 }
 
 .about-us-image-container {
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   max-width: 1180px;
   max-height: 470px;
-  /* background-color: #0e1823; */
   border-radius: 24px;
 }
-
-/* TAB STYLES */
 
 @media screen and (min-width: 768px) {
   .container-about-us {
@@ -80,17 +76,9 @@
     gap: 32px;
   }
 
-  .section {
-    padding: 50px 136px 50px 32px;
-    justify-content: space-between;
-  }
-
   .about-us-title {
     max-width: 536px;
     font-size: 48px;
-  }
-
-  .about-us-div-text {
   }
 
   .about-us-text {
@@ -109,8 +97,6 @@
     height: auto;
   }
 }
-
-/* LAPTOPE STYLES */
 
 @media screen and (min-width: 1280px) {
   .container-about-us {
@@ -139,7 +125,6 @@
     width: 354px;
     height: auto;
     padding: 20px;
-    /* gap: 20px; */
     margin-bottom: 100px;
   }
 
@@ -161,13 +146,7 @@
   }
 }
 
-/* DESKTOP STYLES */
-
 @media screen and (min-width: 1440px) {
-  .container-about-us {
-    /* max-width: 1340px; */
-  }
-
   .about-us-text {
     position: relative;
     counter-increment: activity-counter;

@@ -14,9 +14,14 @@
   border-radius: 8px;
   padding: 0 20px;
   position: absolute;
-  left: 20px;
   top: 20px;
   z-index: 1;
+}
+
+@media screen and (min-width: 375px) {
+  .header-container {
+    left: 20px;
+  }
 }
 
 .logo-header {

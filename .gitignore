@@ -1,7 +1,4 @@
 pullrequests.txt
-git push --set-upstream origin benefits
-git push --set-upstream origin advantages
-
 # Logs
 logs
 *.log
@@ -27,5 +24,3 @@ pullrequests.txt
 *.njsproj
 *.sln
 *.sw?
-
-pullrequests.txt

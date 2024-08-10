@@ -30,22 +30,10 @@ body {
   color: #fbfbfb;
 }
 
-.container {
-  padding: 0px 20px;
-  margin: 0 auto;
-}
-
 .section {
+  margin-left: 0;
+  margin-right: 0;
   margin-top: 80px;
-}
-
-h1 {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 100%;
-  letter-spacing: -0.02em;
-  text-align: center;
-  color: #fbfbfb;
 }
 
 button {
@@ -68,6 +56,11 @@ button {
   background-color: #fbfbfb;
   color: #1b414b;
   cursor: pointer;
+}
+
+.container {
+  padding: 0px 20px;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 375px) {

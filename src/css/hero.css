@@ -15,8 +15,8 @@
 
 .hero-title {
   font-weight: 500;
-  line-height: 1;
-  font-size: 32px;
+  line-height: 100%;
+  font-size: 36px;
   letter-spacing: -0.02em;
   color: #fbfbfb;
   text-align: center;
@@ -93,10 +93,6 @@
     padding-bottom: 282px;
   }
 
-  .one-line {
-    display: block;
-  }
-
   .hero-text {
     font-size: 16px;
     line-height: 1.4;
@@ -135,10 +131,6 @@
       rgba(17, 19, 31, 0.8) 75.3%,
       rgba(17, 19, 31, 0.8) 98.27%
     );
-  }
-
-  .one-line {
-    display: inline;
   }
 
   @media screen and (-webkit-min-device-pixel-ratio: 2),

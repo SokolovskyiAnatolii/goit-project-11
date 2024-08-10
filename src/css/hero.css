@@ -1,6 +1,4 @@
-.hero {
-  min-width: 320px;
-  max-width: 375px;
+.hero-container {
   padding-top: 260px;
   padding-bottom: 302px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -45,7 +43,7 @@
 @media screen and (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 2dppx),
   (min-resolution: 192dpi) {
-  .hero {
+  .hero-container {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url('/img/mobile/hero-mob@2x.jpg');
   }
@@ -58,7 +56,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero {
+  .hero-container {
     max-width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
       url('/img/tablet/hero-tab.jpg');
@@ -94,7 +92,7 @@
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
-    .hero {
+    .hero-container {
       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url('/img/tablet/hero-tab@2x.jpg');
     }
@@ -102,7 +100,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero {
+  .hero-container {
     padding-top: 235px;
     padding-bottom: 215px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -124,7 +122,7 @@
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
-    .hero {
+    .hero-container {
       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url('/img/desktop-middle/hero-desk-1280@2x.jpg');
     }
@@ -132,7 +130,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .hero {
+  .hero-container {
     padding-top: 235px;
     padding-bottom: 215px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
@@ -142,7 +140,7 @@
   @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 2dppx),
     (min-resolution: 192dpi) {
-    .hero {
+    .hero-container {
       background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
         url('/img/desktop-full/hero-desk-1440@2x.jpg');
     }

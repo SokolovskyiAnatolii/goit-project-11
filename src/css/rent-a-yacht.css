@@ -1,3 +1,6 @@
+.rent-a-yacht {
+  margin: 80px 0;
+}
 .section-title {
   line-height: 28px;
   letter-spacing: -0.56px;
@@ -79,6 +82,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .rent-a-yacht {
+    margin: 150px 0;
+  }
   .rent-form {
     padding-left: 148px;
     padding-right: 148px;

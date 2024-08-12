@@ -4,13 +4,13 @@
   border-radius: 24px 24px 0 0;
 
   margin: 0 10px;
-  margin-top: 80px;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   padding: 0 30px 0 30px;
+  width: 355px;
 }
 
 .footer-top {
@@ -147,18 +147,18 @@
   .footer {
     width: 355px;
     margin: 0 auto;
-    margin-top: 80px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .footer {
     margin: 0 16px;
-    margin-top: 150px;
+    padding-top: 50px;
   }
 
   .footer-container {
     padding: 0 48px;
+    width: 736px;
   }
 
   .footer-logo {
@@ -206,18 +206,17 @@
   .footer {
     width: 736px;
     margin: 0 auto;
-    margin-top: 150px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .footer {
     margin: 0 25px;
-    margin-top: 150px;
   }
 
   .footer-container {
     padding: 0 75px;
+    width: 1230px;
   }
 
   .footer-logo {
@@ -241,11 +240,14 @@
   .footer {
     width: 1230px;
     margin: 0 auto;
-    margin-top: 150px;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .footer-container {
+    width: 1440px;
+  }
+
   .footer-logo {
     margin-right: 409px;
   }
@@ -267,6 +269,5 @@
   .footer {
     width: 1390px;
     margin: 0 auto;
-    margin-top: 150px;
   }
 }

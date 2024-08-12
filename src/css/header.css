@@ -18,6 +18,10 @@
   z-index: 1;
 }
 
+.header-nav-link {
+  padding: 10px;
+}
+
 @media screen and (min-width: 375px) {
   .header-container {
     left: 20px;

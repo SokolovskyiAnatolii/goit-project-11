@@ -62,9 +62,16 @@
   border-radius: 15px;
   color: #fbfbfb;
   background: #1b414b;
+
+  letter-spacing: -0.28px;
+  border: none;
+  transition: background-color 0.5s ease-in 0.4s;
+  transition: color 0.5s ease-in 0.4s;
+
   border: 1px solid rgba(251, 251, 251, 0.35);
   transition: background-color 0.5s ease-in 0.3s;
   transition: color 0.5s ease-in 0.3s;
+
 }
 
 .rent-btn:hover,

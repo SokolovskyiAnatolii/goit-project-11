@@ -1,156 +1,94 @@
-.container-about-us {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width: 100%;
+.about {
+  margin-top: -59px;
+  padding-bottom: 80px;
+}
+
+.about-container {
   background-color: #fbfbfb;
   border-radius: 24px;
-  border-color: #040306;
-  box-sizing: border-box;
-  max-width: 335px;
 }
 
-.about-us-section {
-  margin-top: -60px;
-}
-@media screen and (min-width: 768px) {
-  .about-us-section {
-    margin-top: -68px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .about-us-section {
-    margin-top: -35px;
-  }
+.about-block {
+  padding: 40px 20px;
 }
 
-.about-us-title {
-  color: #1b414b;
-  padding: 40px 20px 38px 20px;
-  max-width: 295px;
-  line-height: 100%;
-  text-align: left;
-  font-size: 28px;
+.about-title {
   font-weight: 500;
+  font-size: 28px;
   line-height: 1;
-  letter-spacing: -0.02em;
-}
-.about-us-div-text {
-  padding: 20px;
-}
-.about-us-text {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%;
-
   color: #1b414b;
-  text-align: left;
+  margin-bottom: 40px;
 }
 
-.about-us-under-text {
-  margin-top: 20px;
-  color: #040306;
-  opacity: 0.4;
-  font-size: 12px;
-  font-style: normal;
+.about-subtitle {
   font-weight: 400;
-  line-height: 1.17;
-  letter-spacing: -0.02em;
+  font-size: 18px;
+  line-height: 1;
+  color: #1b414b;
+  margin-bottom: 20px;
 }
 
-.about-us-image-container {
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  max-width: 1180px;
-  max-height: 470px;
+.about-text-descr {
+  color: rgba(4, 3, 6, 0.4);
+}
+
+.about-photo {
   border-radius: 24px;
 }
 
 @media screen and (min-width: 768px) {
-  .container-about-us {
-    max-width: 704px;
-    gap: 32px;
+  .about {
+    margin-top: -67px;
+    padding-bottom: 150px;
   }
 
-  .about-us-title {
-    max-width: 536px;
+  .about-block {
+    padding-top: 50px;
+    padding-right: 136px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+  }
+
+  .about-title {
     font-size: 48px;
+    margin-bottom: 50px;
   }
 
-  .about-us-text {
-    font-size: 23px;
+  .about-box-descr {
     max-width: 389px;
+  }
+
+  .about-subtitle {
     font-size: 23px;
   }
 
-  .about-us-under-text {
-    width: 385px;
+  .about-text-descr {
     font-size: 13px;
-  }
-
-  .about-us-image {
-    width: 100%;
-    height: auto;
+    line-height: 1.15;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container-about-us {
-    max-width: 1180px;
+  .about {
+    margin-top: -35px;
+    padding-bottom: 150px;
   }
 
-  .about-us {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .about-us-title {
-    width: 537px;
-  }
-
-  .about-us {
+  .about-block {
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
+    gap: 189px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    padding-left: 50px;
   }
 
-  .about-us-div-text {
-    margin-top: 25px;
-    margin-left: auto;
-    margin-right: 50px;
-    width: 354px;
-    height: auto;
-    padding: 20px;
-    margin-bottom: 100px;
+  .about-title {
+    margin-bottom: 0;
+    max-width: 537px;
   }
 
-  .about-us-text {
+  .about-box-descr {
     max-width: 354px;
-    height: 115px;
-    letter-spacing: -0.02em;
-    line-height: 100%;
-  }
-
-  .about-us-under-text {
-    position: relative;
-    margin-right: 50px;
-    width: 354px;
-  }
-
-  .about-us-image {
-    border-radius: 24px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .about-us-text {
-    position: relative;
-    counter-increment: activity-counter;
-    width: 100%;
-    width: 404px;
   }
 }

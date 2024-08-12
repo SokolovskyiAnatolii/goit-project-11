@@ -1,0 +1,158 @@
+.reviews-container {
+  background-color: #0e1823;
+  min-width: 320px;
+  box-sizing: border-box;
+}
+
+.reviews-title {
+  max-width: 335px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.reviews-subtitle {
+  margin-bottom: 40px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+.list-reviews {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.list-photo {
+  border-radius: 24px;
+  background-color: #fbfbfb;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.second {
+  display: none;
+}
+
+.third {
+  display: none;
+}
+
+.reviews-img {
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.member-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #040306;
+  margin-bottom: 8px;
+}
+
+.member-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(4, 3, 6, 0.4);
+}
+
+/* ---------------style-media-----------------*/
+
+@media screen and (max-width: 767px) {
+  .list-photo:nth-child(2),
+  .list-photo:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .list-photo:nth-child(3) {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-title {
+    max-width: 704px;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    letter-spacing: -0.02em;
+  }
+
+  .reviews-subtitle {
+    max-width: 571px;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 1.29;
+    margin: 0 auto;
+    margin-bottom: 75px;
+  }
+
+  .list-reviews {
+    display: flex;
+    gap: 32px;
+  }
+
+  .list-photo {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 32px) / 2);
+  }
+
+  .list-photo.second {
+    display: flex;
+    align-items: center;
+  }
+
+  .third {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-title {
+    max-width: 854px;
+  }
+
+  .list-photo.third {
+    display: flex;
+  }
+
+  .list-reviews {
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 32px;
+  }
+
+  .list-photo {
+    flex-basis: calc((100% - 52px) / 3);
+    padding: 32px 28px;
+  }
+
+  .member-text {
+    max-width: 320px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .list-photo {
+    flex-basis: calc((100% - 64px) / 3);
+    padding: 32px 36px;
+  }
+}

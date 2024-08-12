@@ -1,5 +1,5 @@
 .yacht-title {
-  width: 310px;
+  max-width: 310px;
   margin-bottom: 40px;
   margin-right: auto;
   margin-left: auto;
@@ -102,7 +102,7 @@
 
 @media screen and (min-width: 768px) {
   .yacht-title {
-    width: 610px;
+    max-width: 610px;
     margin-bottom: 75px;
   }
 
@@ -132,7 +132,7 @@
 
 @media screen and (min-width: 1280px) {
   .yacht-title {
-    width: 690px;
+    max-width: 690px;
   }
 
   .our-yachts-list {

@@ -240,6 +240,10 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .footer-container {
+    width: 1440px;
+  }
+
   .footer-logo {
     margin-right: 409px;
   }

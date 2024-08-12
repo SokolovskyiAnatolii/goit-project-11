@@ -41,15 +41,13 @@ button {
   color: #fbfbfb;
   display: block;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    cursor 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-btn:hover,
 .main-btn:focus {
   background-color: #fbfbfb;
   color: #1b414b;
-  cursor: pointer;
 }
 
 .container {

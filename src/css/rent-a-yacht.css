@@ -5,9 +5,11 @@
 
   margin-bottom: 40px;
 }
+
 .rent-form {
   padding-bottom: 80px;
 }
+
 .rent-input {
   width: 100%;
   height: 42px;
@@ -22,6 +24,7 @@
   margin-bottom: 18px;
   padding-left: 18px;
 }
+
 .rent-input::placeholder {
   color: rgba(251, 251, 251, 0.4);
   font-size: 14px;
@@ -43,11 +46,13 @@
   padding: 14px 18px;
   margin-bottom: 40px;
 }
-.rent-comment ::placeholder {
+
+.rent-comment::placeholder {
   color: rgba(251, 251, 251, 0.4);
   font-size: 14px;
   line-height: 18px;
 }
+
 .rent-input:hover,
 .rent-input:focus,
 .rent-comment:hover,
@@ -56,23 +61,17 @@
   border: 1px solid rgba(251, 251, 251, 0.5);
   transition: border-color 0.5s ease-in 0.3s;
 }
-.rent-btn {
-  font: 500 18px / 1.1;
-  letter-spacing: -0.02em;
-  border-radius: 15px;
-  color: #fbfbfb;
-  background: #1b414b;
-  letter-spacing: -0.28px;
+
+.send-btn {
+  min-width: 122px;
+  padding: 14px 44px;
+
+  font-size: 14px;
+  line-height: 1.29;
+
   border: none;
-  transition: background-color 0.5s ease-in 0.3s;
-  transition: color 0.5s ease-in 0.3s;
 }
 
-.rent-btn:hover,
-.rent-btn:focus {
-  background: #fbfbfb;
-  color: #1b414b;
-}
 .rent-img {
   width: 100%;
   border-radius: 20px;
@@ -84,6 +83,7 @@
     padding-right: 148px;
     padding-bottom: 150px;
   }
+
   .section-title {
     font-size: 48px;
     font-weight: 500;
@@ -96,14 +96,20 @@
   .rent-input {
     height: 54px;
   }
+
   .rent-comment {
     height: 116px;
     margin-bottom: 50px;
   }
-  .rent-btn {
+
+  .send-btn {
     width: 194px;
-    height: 56px;
+    min-height: 56px;
+
+    font-size: 18px;
+    line-height: 1.1;
   }
+
   .rent-img {
     height: 534px;
   }
@@ -113,11 +119,13 @@
     display: flex;
     flex-direction: row-reverse;
   }
+
   .rent-form {
     display: flex;
     flex-direction: column;
     padding: 0;
   }
+
   .rent-input,
   .rent-comment {
     width: 472px;

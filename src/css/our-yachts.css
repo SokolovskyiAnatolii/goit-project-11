@@ -73,11 +73,14 @@
 }
 
 .rent-btn {
-  min-width: 141px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 141px;
+  min-height: 46px;
   border: 1px solid rgba(251, 251, 251, 0.35);
-  padding: 14px 32px;
   background: transparent;
-
   margin: 0 auto;
 
   font-size: 14px;

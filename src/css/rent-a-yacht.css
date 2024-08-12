@@ -59,7 +59,7 @@
   border: 1px solid rgba(251, 251, 251, 0.5);
   transition: border-color 0.5s ease-in 0.3s;
 }
-.rent-btn {
+.rent-yacht-btn {
   width: 122px;
   height: 46px;
   color: #fbfbfb;
@@ -71,8 +71,8 @@
   transition: color 0.5s ease-in 0.4s;
 }
 
-.rent-btn:hover,
-.rent-btn:focus {
+.rent-yacht-btn:hover,
+.rent-yacht-btn:focus {
   background: #fbfbfb;
   color: #1b414b;
 }
@@ -106,7 +106,7 @@
     height: 116px;
     margin-bottom: 50px;
   }
-  .rent-btn {
+  .rent-yacht-btn {
     width: 194px;
     height: 56px;
   }
